@@ -20,8 +20,7 @@ for iter = 1:num_iters
 
 B=sum(((X*theta)-y).*X)';
 
-%theta(1,1)=theta(1,1)-(alpha*(1/m)*B);
-%theta(2,1)=theta(2,1)-(alpha*(1/m)*D);
+
 
 theta=theta-(alpha*(1/m)*B);
 
