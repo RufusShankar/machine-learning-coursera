@@ -28,7 +28,7 @@ J=-((1/m)*B)+((lambda/(2*m))*A);
 
 
 
-C=sum(((sigmoid(X*theta))-y).*X)';
+C=((sigmoid(X*theta))-y).*X;
 
 grad=((1/m)*C);
 
